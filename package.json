@@ -1,0 +1,31 @@
+{
+  "name": "node-red-contrib-latch",
+  "version": "1.0.0",
+  "description": "A latch switch node for Node-RED",
+  "main": "latch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hj91/node-red-contrib-latch.git"
+  },
+  "keywords": [
+    "node-red",
+    "latch",
+    "switch",
+    "state"
+  ],
+  "author": "Harshad Joshi (https://github.com/hj91)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hj91/node-red-contrib-latch/issues"
+  },
+  "homepage": "https://github.com/hj91/node-red-contrib-latch#readme",
+  "node-red": {
+    "nodes": {
+      "latch": "latch.js"
+    }
+  }
+}
+
